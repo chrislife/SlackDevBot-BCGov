@@ -25,7 +25,7 @@ You will also need a GitHub OAuth Token
 3. You can now talk to the bot on your Slack group
 
 ### TODOs
-[ ] Get the bot running on Heroku in order to assure uptime. Instructions can be found here https://github.com/github/hubot/blob/master/docs/deploying/heroku.md.
-[ ] Give the Scrarecrow a brain in order to facilitate memory persistence. This can be done using Redis, offered through Heroku. Details are here https://github.com/hubot-scripts/hubot-redis-brain.
-[ ] Handle token storage more elegantly.
-[ ] Set up permissions so that not all Slack users can access the bot's commands.
+- [ ] Get the bot running on Heroku in order to assure uptime. Instructions can be found here https://github.com/github/hubot/blob/master/docs/deploying/heroku.md.
+- [ ] Give the Scrarecrow a brain in order to facilitate memory persistence. This can be done using Redis, offered through Heroku. Details are here https://github.com/hubot-scripts/hubot-redis-brain.
+- [ ] Handle token storage more elegantly.
+- [ ] Set up permissions so that not all Slack users can access the bot's commands.
