@@ -19,7 +19,13 @@ You will also need a GitHub OAuth Token
 
 ### Setup
 1. Download and install the components listed in requirements
-2. To run locally launch through command prompt with 'hubot --adapter slack'
+1a. It is recommended to install hubot through yeoman:
+```%  npm install -g yo generator-hubot
+% mkdir myhubot
+% cd myhubot
+% yo hubot
+```
+2. To run locally launch through command prompt with ```hubot --adapter slack``` or alternatively run ```bin\hubot -a slack``` from the folder hubot is installed in
 2a. You will need an API token for your Slack group
 2b. Good instructions on using the Slack adapter can be found at https://www.sitepoint.com/spice-up-your-slack-channel-with-hubot/
 3. You can now talk to the bot on your Slack group
