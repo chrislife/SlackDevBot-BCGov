@@ -20,7 +20,8 @@ You will also need a GitHub OAuth Token
 ### Setup
 1. Download and install the components listed in requirements
 1a. It is recommended to install hubot through yeoman:
-```%  npm install -g yo generator-hubot
+```
+%  npm install -g yo generator-hubot
 % mkdir myhubot
 % cd myhubot
 % yo hubot
